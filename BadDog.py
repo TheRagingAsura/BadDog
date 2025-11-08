@@ -376,7 +376,7 @@ async def restart(ctx):
 @bot.command(name="helpme")
 async def help_command(ctx):
     msg = (
-        "**Bad Dog List Bot Commands**\n"
+        "**BadDog List Bot Commands**\n"
         "-----------------------------------\n"
         "**!addpet name, breed, playroom, sep1, sep2, sep3**\n"
         "Add a new pet. Example:\n"
