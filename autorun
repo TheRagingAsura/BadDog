@@ -1,0 +1,25 @@
+@echo off
+cd /d "%~dp0"
+
+echo Checking for Python...
+python --version >nul 2>&1
+IF %ERRORLEVEL% NEQ 0 (
+    echo.
+    echo Python is not installed on this PC.
+    echo Please download it from:
+    echo    https://www.python.org/downloads/
+    echo.
+    pause
+    exit /b
+)
+
+echo Installing required Python packages (if missing)...
+python -m pip install -U discord.py >nul
+
+echo.
+echo Starting BadDog Bot...
+python BadDog.py
+
+echo.
+echo Bot closed or crashed.
+pause
