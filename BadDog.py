@@ -49,11 +49,10 @@ async def on_ready():
   /  \__
  (     @\___
  /          O
-/    (_____/
+/    (_____/  I am online!
 /\_____/   
 """
     print(dog_art)
-    print(f"Bot is online as {bot.user}")
 
 
 # ---------------------------
@@ -440,4 +439,4 @@ async def help_command(ctx):
 # RUN BOT
 # ---------------------------
 
-bot.run("")
+bot.run("TOKEN GOES HERE")
