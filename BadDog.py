@@ -422,10 +422,10 @@ async def help_command(ctx):
         "Example:\n"
         "  !delpet abc12345\n\n"
 
-        "**!shutdown** (owner only)\n"
+        "**!shutdown** (admin only)\n"
         "Turn the bot off.\n\n"
 
-        "**!restart** (owner only)\n"
+        "**!restart** (admin only)\n"
         "Restart the bot.\n"
     )
 
